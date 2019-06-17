@@ -124,13 +124,6 @@
     }
   ],
   "oomtest": [
-    {
-      "id": 1,
-      "name": "clark"
-    },
-    {
-      "id": 2,
-      "name": "oommie"
-    }
+   
   ]
 }
