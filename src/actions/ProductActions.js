@@ -4,9 +4,9 @@ import axios from "axios";
 
 // ส่งไปบอกว่าให้เปลี่ยนแปลงข้อมูลตัว order
 export const productsFetch = () => {
-    console.log(process.env.REACT_APP_API_URL);
+    //console.log("http://localhost:3001"+);
     return dd => {
-        axios.get(process.env.REACT_APP_API_URL+ "/products")
+        axios.get("http://localhost:3001"+"/products")
         .then(
             res => {
                 // this.setState({orders:res.data}); ปกติจะเขียนแบบนี้แต่ว่าเราใช้ redux tunck มาเก็บแทน

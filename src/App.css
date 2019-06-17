@@ -36,6 +36,22 @@
   font-family:  'Prompt-Medium';
   src : url('/fonts/Prompt-Medium.ttf');
 }
+@font-face{
+  font-family:  'Frontage';
+  src : url('/fonts/FrontageCondensed-Outline.otf');
+}
+@font-face{
+  font-family:  'Knomphing-bold';
+  src : url('/fonts/knomphing/FC Knomphing Bold.ttf');
+}
+@font-face{
+  font-family:  'Little-print';
+  src : url('/fonts/Little Print.otf');
+}
+@font-face{
+  font-family:  'aqua';
+  src : url('/fonts/aqua.ttf');
+}
 
 h1 ,h2 ,h3 , h4 , h5 ,h6 {
   font-family: 'Prompt-Medium' ;
@@ -43,4 +59,17 @@ h1 ,h2 ,h3 , h4 , h5 ,h6 {
 
 .title{
   font-family:  'Prompt-Regular';
+}
+
+.fontage{
+  font-family:  'Frontage';
+}
+.knomphing{
+  font-family:  'Knomphing-bold';
+}
+.little-print{
+  font-family:  'Little-print';
+}
+.aqua{
+  font-family:  'aqua';
 }

@@ -38,10 +38,10 @@ class Header extends Component{
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-8">
-                    <h1 className="text-success"><img style={{height : 70}} src="/images/logo/logo.png" alt="oommielogo"/>ออมมี่เบเกอรี่ </h1>
+                    <h1 className="text-success aqua"><img style={{height : 70}} src="/images/logo/logo.png" alt="oommielogo"/>Chanita Cafe </h1>
                 </div>
                 <div className="col-md-4 text-right">
-                    <h5 className="text-muted mt-5">
+                    <h5 className="text-muted mt-5 knomphing">
                         {this.state.date.toLocaleTimeString()} PM
                     </h5>
                     <ul className="list-inline">
